@@ -15,14 +15,14 @@ sudo update-mime-database /usr/share/mime
 Install VarTypes de uma fork de um membro do VSSS.
 
 ```bash
-$ cd /tmp
-$ git clone https://github.com/jpfeltracco/vartypes.git
-$ cd vartypes
-$ mkdir build
-$ cd build
-$ cmake ..
-$ make
-$ sudo make install
+cd /tmp
+git clone https://github.com/jpfeltracco/vartypes.git
+cd vartypes
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
 ```
 
 #### Installing QT5 (Passo não necessário caso já tenha feito a instalação do Referee)
